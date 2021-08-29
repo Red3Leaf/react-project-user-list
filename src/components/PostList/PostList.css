@@ -1,0 +1,12 @@
+.post-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+}
+
+.post-list>.space {
+    padding-left: 702px;
+    padding-top: 360px;
+}

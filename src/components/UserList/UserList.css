@@ -1,0 +1,12 @@
+.user-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+}
+
+.user-list>.space {
+    padding-left: 702px;
+    padding-top: 360px;
+}
