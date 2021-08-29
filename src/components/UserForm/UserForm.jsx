@@ -75,7 +75,7 @@ class UserForm extends React.Component {
       ? this.state.email.match(mailformat)
         ? mailExists !== true
           ? this.handleFormSubmit(event)
-          : alert("User-ul Exista")
+          : alert("Utilizatorul Exista Deja")
         : alert("Email Invalid")
       : alert("Nume Invalid");
   }
